@@ -1,8 +1,6 @@
 #include <gui/screen2_screen/Screen2View.hpp>
 #include <touchgfx/widgets/Button.hpp>
 
-touchgfx::Button FadeToggleB;
-
 
 Screen2View::Screen2View() : buttonClickedCallback(this, &Screen2View::buttonClicked)
 {

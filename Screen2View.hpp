@@ -4,8 +4,6 @@
 #include <gui_generated/screen2_screen/Screen2ViewBase.hpp>
 #include <gui/screen2_screen/Screen2Presenter.hpp>
 #include <touchgfx/widgets/Button.hpp>
-extern touchgfx::Button FadeToggleB;
-
 
 class Screen2View : public Screen2ViewBase
 {
